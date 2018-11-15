@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Form1.cs](./CS/Form1.cs) (VB: [Form1.vb](./VB/Form1.vb))
+* [UserControl1.cs](./CS/UserControl1.cs) (VB: [UserControl1.vb](./VB/UserControl1.vb))
+<!-- default file list end -->
 # How to save/restore a splitter position
 
 
