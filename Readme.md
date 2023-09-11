@@ -3,21 +3,21 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E594)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
+
+# WinForms Split Container Control - Save/restore a splitter position
+
+This example demonstrates how to serialize and deserialize a [splitter](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.SplitContainerControl) position.
+
+![WinForms Split Container Control - Save/restore a splitter positio](https://raw.githubusercontent.com/DevExpress-Examples/how-to-save-restore-a-splitter-position-e594/13.1.4%2B/media/winforms-splitter-serialization.gif)
+
+
+## Files to Review
 
 * [Form1.cs](./CS/Form1.cs) (VB: [Form1.vb](./VB/Form1.vb))
 * [UserControl1.cs](./CS/UserControl1.cs) (VB: [UserControl1.vb](./VB/UserControl1.vb))
-<!-- default file list end -->
-# How to save/restore a splitter position
 
 
-<p>This example demonstrates how to save and restore a Splitter position by utilizing Serialization technology.<br />
-For more information, please refer to the <a href="https://www.devexpress.com/Support/Center/p/A2860">How the splitter's position can be saved on exit and restored when the application is launched next time</a> Knowledge Base article.</p><p><strong>See Also:</strong><br />
-<a href="http://msdn.microsoft.com/en-us/library/system.runtime.serialization.formatters.binary.binaryformatter(VS.80).aspx">BinaryFormatter Class</a><br />
-<a href="http://msdn.microsoft.com/en-us/library/system.runtime.serialization.formatters.formatterassemblystyle(VS.80).aspx">FormatterAssemblyStyle Enumeration</a><br />
-<a href="http://documentation.devexpress.com/#WindowsForms/clsDevExpressXtraEditorsSplitContainerControltopic">SplitContainerControl Class</a></p>
+## See Also
 
-<br/>
-
-
+* [BinaryFormatter Class](https://learn.microsoft.com/en-us/dotnet/api/system.runtime.serialization.formatters.binary.binaryformatter?view=net-7.0&redirectedfrom=MSDN)
+* [FormatterAssemblyStyle Enumeration](https://learn.microsoft.com/en-us/dotnet/api/system.runtime.serialization.formatters.formatterassemblystyle?view=net-7.0&redirectedfrom=MSDN)
