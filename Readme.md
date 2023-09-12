@@ -15,9 +15,3 @@ This example demonstrates how to serialize and deserialize a [splitter](https://
 
 * [Form1.cs](./CS/Form1.cs) (VB: [Form1.vb](./VB/Form1.vb))
 * [UserControl1.cs](./CS/UserControl1.cs) (VB: [UserControl1.vb](./VB/UserControl1.vb))
-
-
-## See Also
-
-* [BinaryFormatter Class](https://learn.microsoft.com/en-us/dotnet/api/system.runtime.serialization.formatters.binary.binaryformatter?view=net-7.0&redirectedfrom=MSDN)
-* [FormatterAssemblyStyle Enumeration](https://learn.microsoft.com/en-us/dotnet/api/system.runtime.serialization.formatters.formatterassemblystyle?view=net-7.0&redirectedfrom=MSDN)
