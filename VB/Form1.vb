@@ -149,6 +149,7 @@ Namespace SaveRestoreSplitterPosition
         Private Sub UnloadModule(ByVal [module] As UserControl)
             BasePanel.Controls.Remove([module])
             [module].Dispose()
+            Settings.Default.Save()
         End Sub
     End Class
 End Namespace
