@@ -26,6 +26,14 @@ namespace SaveRestoreSplitterPosition {
             // TODO: Add any initialization after the InitializeComponent call
 
         }
+        protected override void OnLoad(EventArgs e) {
+            base.OnLoad(e);
+            this.SizeChanged += UserControl1_SizeChanged;
+        }
+        private void UserControl1_SizeChanged(object sender, EventArgs e) {
+            this.SizeChanged -= UserControl1_SizeChanged;
+            splitContainerControl1.SplitterPosition = Settings.Default.SavedSplitterPosition;
+        }
 
         /// <summary> 
         /// Clean up any resources being used.
