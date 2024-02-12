@@ -1,3 +1,4 @@
+Imports System
 Imports System.ComponentModel
 Imports System.Drawing
 Imports System.Windows.Forms
@@ -21,6 +22,16 @@ Namespace SaveRestoreSplitterPosition
             ' This call is required by the Windows.Forms Form Designer.
             InitializeComponent()
         ' TODO: Add any initialization after the InitializeComponent call
+        End Sub
+
+        Protected Overrides Sub OnLoad(ByVal e As EventArgs)
+            MyBase.OnLoad(e)
+            AddHandler SizeChanged, AddressOf UserControl1_SizeChanged
+        End Sub
+
+        Private Sub UserControl1_SizeChanged(ByVal sender As Object, ByVal e As EventArgs)
+            RemoveHandler SizeChanged, AddressOf UserControl1_SizeChanged
+            splitContainerControl1.SplitterPosition = Settings.Default.SavedSplitterPosition
         End Sub
 
         ''' <summary> 
