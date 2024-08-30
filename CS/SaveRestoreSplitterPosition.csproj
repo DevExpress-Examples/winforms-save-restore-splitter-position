@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="Current">
   <PropertyGroup>
     <ProjectType>Local</ProjectType>
@@ -7,13 +7,10 @@
     <ProjectGuid>{2A7BA29E-9771-45B7-A31B-D2EFBB07BEF8}</ProjectGuid>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ApplicationIcon>
-    </ApplicationIcon>
-    <AssemblyKeyContainerName>
-    </AssemblyKeyContainerName>
+    <ApplicationIcon></ApplicationIcon>
+    <AssemblyKeyContainerName></AssemblyKeyContainerName>
     <AssemblyName>SaveRestoreSplitterPosition</AssemblyName>
-    <AssemblyOriginatorKeyFile>
-    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile></AssemblyOriginatorKeyFile>
     <DefaultClientScript>JScript</DefaultClientScript>
     <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
     <DefaultTargetSchema>IE50</DefaultTargetSchema>
@@ -21,12 +18,9 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>SaveRestoreSplitterPosition</RootNamespace>
     <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
-    <StartupObject>
-    </StartupObject>
-    <FileUpgradeFlags>
-    </FileUpgradeFlags>
-    <UpgradeBackupLocation>
-    </UpgradeBackupLocation>
+    <StartupObject></StartupObject>
+    <FileUpgradeFlags></FileUpgradeFlags>
+    <UpgradeBackupLocation></UpgradeBackupLocation>
     <OldToolsVersion>2.0</OldToolsVersion>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
@@ -43,7 +37,7 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -51,16 +45,13 @@
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
     <BaseAddress>285212672</BaseAddress>
     <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
-    <ConfigurationOverrideFile>
-    </ConfigurationOverrideFile>
+    <ConfigurationOverrideFile></ConfigurationOverrideFile>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <DocumentationFile>
-    </DocumentationFile>
+    <DocumentationFile></DocumentationFile>
     <DebugSymbols>true</DebugSymbols>
     <FileAlignment>4096</FileAlignment>
     <NoStdLib>false</NoStdLib>
-    <NoWarn>
-    </NoWarn>
+    <NoWarn></NoWarn>
     <Optimize>false</Optimize>
     <RegisterForComInterop>false</RegisterForComInterop>
     <RemoveIntegerChecks>false</RemoveIntegerChecks>
@@ -76,16 +67,13 @@
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
     <BaseAddress>285212672</BaseAddress>
     <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
-    <ConfigurationOverrideFile>
-    </ConfigurationOverrideFile>
+    <ConfigurationOverrideFile></ConfigurationOverrideFile>
     <DefineConstants>TRACE</DefineConstants>
-    <DocumentationFile>
-    </DocumentationFile>
+    <DocumentationFile></DocumentationFile>
     <DebugSymbols>false</DebugSymbols>
     <FileAlignment>4096</FileAlignment>
     <NoStdLib>false</NoStdLib>
-    <NoWarn>
-    </NoWarn>
+    <NoWarn></NoWarn>
     <Optimize>true</Optimize>
     <RegisterForComInterop>false</RegisterForComInterop>
     <RemoveIntegerChecks>false</RemoveIntegerChecks>
@@ -97,20 +85,44 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Printing.v13.1.Core">
-      <Name>DevExpress.Printing.v13.1.Core</Name>
+    <Reference Include="DevExpress.Pdf.v24.2.Core">
+      <Name>DevExpress.Pdf.v24.2.Core</Name>
       <AssemblyFolderKey>hklm\devexpress debug</AssemblyFolderKey>
     </Reference>
-    <Reference Include="DevExpress.Data.v13.1">
-      <Name>DevExpress.Data.v13.1</Name>
+    <Reference Include="DevExpress.Office.v24.2.Core">
+      <Name>DevExpress.Office.v24.2.Core</Name>
       <AssemblyFolderKey>hklm\devexpress debug</AssemblyFolderKey>
     </Reference>
-    <Reference Include="DevExpress.Utils.v13.1">
-      <Name>DevExpress.Utils.v13.1</Name>
+    <Reference Include="DevExpress.RichEdit.v24.2.Core">
+      <Name>DevExpress.RichEdit.v24.2.Core</Name>
       <AssemblyFolderKey>hklm\devexpress debug</AssemblyFolderKey>
     </Reference>
-    <Reference Include="DevExpress.XtraEditors.v13.1">
-      <Name>DevExpress.XtraEditors.v13.1</Name>
+    <Reference Include="DevExpress.RichEdit.v24.2.Export">
+      <Name>DevExpress.RichEdit.v24.2.Export</Name>
+      <AssemblyFolderKey>hklm\devexpress debug</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v24.2.Core">
+      <Name>DevExpress.Printing.v24.2.Core</Name>
+      <AssemblyFolderKey>hklm\devexpress debug</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="DevExpress.Drawing.v24.2">
+      <Name>DevExpress.Drawing.v24.2</Name>
+      <AssemblyFolderKey>hklm\devexpress debug</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="DevExpress.Data.v24.2">
+      <Name>DevExpress.Data.v24.2</Name>
+      <AssemblyFolderKey>hklm\devexpress debug</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="DevExpress.Data.Desktop.v24.2">
+      <Name>DevExpress.Data.Desktop.v24.2</Name>
+      <AssemblyFolderKey>hklm\devexpress debug</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v24.2">
+      <Name>DevExpress.Utils.v24.2</Name>
+      <AssemblyFolderKey>hklm\devexpress debug</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v24.2">
+      <Name>DevExpress.XtraEditors.v24.2</Name>
       <AssemblyFolderKey>hklm\devexpress debug</AssemblyFolderKey>
     </Reference>
     <Reference Include="System">
@@ -166,9 +178,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PreBuildEvent>
-    </PreBuildEvent>
-    <PostBuildEvent>
-    </PostBuildEvent>
+    <PreBuildEvent></PreBuildEvent>
+    <PostBuildEvent></PostBuildEvent>
   </PropertyGroup>
 </Project>
