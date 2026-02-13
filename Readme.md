@@ -17,7 +17,7 @@ This example demonstrates how to serialize and deserialize a [splitter](https://
 * [Form1.cs](./CS/Form1.cs) (VB: [Form1.vb](./VB/Form1.vb))
 * [UserControl1.cs](./CS/UserControl1.cs) (VB: [UserControl1.vb](./VB/UserControl1.vb))
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-save-restore-splitter-position&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-save-restore-splitter-position&~~~was_helpful=no)
 
