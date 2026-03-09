@@ -9,7 +9,7 @@
 
 This example demonstrates how to serialize and deserialize a [splitter](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.SplitContainerControl) position.
 
-![WinForms Split Container Control - Save/restore a splitter position](https://raw.githubusercontent.com/DevExpress-Examples/how-to-save-restore-a-splitter-position-e594/13.1.4%2B/media/winforms-splitter-serialization.gif)
+![WinForms Split Container Control - Save/restore a splitter position](media/winforms-splitter-serialization.gif)
 
 
 ## Files to Review
@@ -23,3 +23,4 @@ This example demonstrates how to serialize and deserialize a [splitter](https://
 
 (you will be redirected to DevExpress.com to submit your response)
 <!-- feedback end -->
+
